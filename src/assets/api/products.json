@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "categoryName": "DIGITAAL + PAPIER",
+      "products": [
+        {
+          "id": 1001,
+          "name": "Completely",
+          "subTitle1": "Ma t/m za de papieren krant,",
+          "subTitle2": "Ma t/m za de digitale krant",
+          "korting": 36,
+          "price": "6,00",
+          "priceValidityInterval": "per week",
+          "stock": false
+        },
+        {
+          "id": 1002,
+          "name": "Zaterdag + Digitaal",
+          "subTitle1": "Zaterdag de papieren krant,",
+          "subTitle2": "Ma t/m za de digitale krant",
+          "korting": 36,
+          "price": "4,00",
+          "priceValidityInterval": "per week",
+          "stock": false
+        }
+      ]
+    },
+    {
+      "categoryName": "DIGITAAL",
+      "products": [
+        {
+          "id": 1003,
+          "name": "Digitaal",
+          "subTitle1": "Ma t/m za de digitale krant,",
+          "subTitle2": "Onbeperkt Premiumartikelen",
+          "korting": 31,
+          "price": "3,50",
+          "priceValidityInterval": "per week",
+          "stock": true
+        },
+        {
+          "id": 1004,
+          "name": "Digitaal Basis",
+          "subTitle1": "Onbeperkt Premiumartikelen",
+          "subTitle2": "",
+          "korting": 40,
+          "price": "1,10",
+          "priceValidityInterval": "per week",
+          "stock": false
+        }
+      ]
+    }
+  ]
+}
