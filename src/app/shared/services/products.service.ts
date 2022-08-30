@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { catchError, Observable, throwError } from 'rxjs';
+import { Products } from '@dpg/shared/interfaces/products.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -12,9 +13,8 @@ export class ProductsService {
 
   constructor(private http: HttpClient) {}
 
-  // TODO: Define interface for products data
-  getProducts(): Observable<any[]> {
-    return this.http.get<any[]>(this.productsApi)
+  getProducts(): Observable<Products> {
+    return this.http.get<Products>(this.productsApi)
       .pipe(
         catchError(this.handleError)
       );
