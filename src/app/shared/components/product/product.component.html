@@ -1,0 +1,85 @@
+<div>
+  <div class="product-kaart__header-bar"></div>
+  <div class="product-kaart__inner">
+    <h2 class="product-title">
+      <span>{{ product.name }}</span>
+    </h2>
+    <div class="product-subtitle">
+      {{ product.subTitle1 }}
+      <br />
+      {{ product.subTitle2 }}
+    </div>
+    <div class="product-price">
+      <div class="prijs-wrap">
+        <span class="Prijs">
+          <span class="value">
+            <span class="value__euros">{{ product.price }}</span>
+          </span>
+          <span class="eenheid"
+            >&nbsp; {{ product.priceValidityInterval }}</span
+          >
+        </span>
+      </div>
+
+      <div class="product-price__discount">{{ product.korting }}% KORTING</div>
+    </div>
+    <div class="product-kaart__premium"></div>
+    <div class="kennismaking">Introductietarief</div>
+    <div class="button product-kaart__button-container">
+      <button
+        type="button"
+        title="Bestel nu"
+        class="button product-kaart__button button--primary"
+        (click)="addToCart(product)"
+      >
+        Bestel nu
+      </button>
+    </div>
+    <div>
+      <div class="packshots--container AD">
+        <!---->
+      </div>
+      <div class="usps-wrapper">
+        <div class="usps">
+          <ul>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                href="#bed87eed-095f-4308-bb42-3a8efc9d151c"
+                >Onbeperkt Premiumartikelen</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                href="#6b060347-69d5-4784-aee4-21d9922eea77"
+                >Digitale krant met bijlagen (pdf)</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                href="#11fb54ce-c98c-44db-8cfc-4781cc6ff909"
+                >Magazine Mezza en bijlagen Z&amp;Zo</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                href="#b6926d02-a3fb-4a32-98b9-086234fc338b"
+                >Extra dikke weekendkrant</a
+              >
+            </li>
+            <li>
+              <a
+                rel="noopener noreferrer"
+                href="#f50e6f85-8f76-487d-92f0-cd960f089e84"
+                >Doordeweeks de papieren krant</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
